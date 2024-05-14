@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Bienvenue sur l'API REST.
+  p Voici les routes disponibles :
+  ul 
+  li La route pour récupérer les vêtements /freelances
+  li La route pour avoir le détail d'un vêtement /profile/?id={id}
+  li La route pour avoir le questionnaire /survey
+  li La route pour obtenir le résultat du questionnaire /results/?a1={answer1}&a2={answer2}&a3={answer3}...
